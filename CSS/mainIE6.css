@@ -1,0 +1,19 @@
+/* 
+Title:		IE 6 fixes
+Author: 	3 Crown Creative
+*/
+
+
+#innerWrap {background: url(/images/bkgShadowLR-IE6.jpg) repeat-y;}
+#foot {background: none;height:29px; padding:0; margin-right:35px}
+#container { margin-left:0px;height:571px}
+
+ul, ol {margin-left:-6px}
+
+
+/*  For PNG fix  */
+img { behavior: url(/CSS/iepngfix.htc) }
+
+/* self-clear floats */
+* html .group {height: 1%;}
+

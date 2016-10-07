@@ -1,0 +1,24 @@
+/* 
+Title:		IE fixes
+Author: 	3 Crown Creative
+*/
+
+/* self-clear floats */
+*:first-child+html .group {min-height: 1px;}
+
+img.imgBorder:hover, .imgBorder img:hover {-ms-filter:"alpha(opacity=50)";filter:alpha(opacity=50);}
+
+#nav li ul a:hover {-ms-filter:"alpha(opacity=100)";filter:alpha(opacity=100);}
+#nav li ul {-ms-filter:"alpha(opacity=95)";filter:alpha(opacity=95);}
+.subActive {-ms-filter:"alpha(opacity=100)";filter:alpha(opacity=100);}
+
+/* shadows */
+.shadow {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=125,strength=5)"; /* IE8+ */  
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=125,strength=5); /* IE7 and lower */  }
+#slideshow-container img {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=125,strength=5)";
+                          filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=125,strength=5);}
+form.commentForm input.button { -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=125,strength=5)";
+                          filter: progid:DXImageTransform.Microsoft.Shadow(color=#333333,direction=125,strength=5);}
+form.commentForm input.button:hover {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+                          filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);}
+

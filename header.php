@@ -12,6 +12,25 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/layouts/sidebar-content.css" media="screen" />
+
+<!-- css from old site -->
+<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/reset.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/base.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/main.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/highslide.css" />    <!-- For modal windows / galleries  -->
+
+<!-- scripts from old site -->
+
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/scripts/mootools.js"     type="text/javascript"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/scripts/highslide.js"    type="text/javascript"></script>   <!-- For modal windows / galleries  -->
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/scripts/main.js"         type="text/javascript"></script>
+<script type="text/javascript">/* <![CDATA[ */ houseKeeping(); /* ]]> */</script>
+<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/scripts/arc90_imgcaption.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+
+
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">

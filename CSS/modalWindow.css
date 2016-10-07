@@ -1,0 +1,34 @@
+@import "reset.css";
+@import "base.css";
+
+html, body {background:#fff; color:#333}
+#wrap {margin:10px}
+p {letter-spacing:.04em;}
+
+.underline {text-decoration:underline}
+
+a {text-decoration:underline; color:#666666;  }
+a:hover { text-decoration:none; }
+a:focus {outline: none}
+img {border:0px}
+.imgLeft {float:left; padding:0 10px 10px 0}
+.imgRight {float:right; padding:0 0 10px 10px}
+
+/*  <HIGHSLIDE>
+--------------------------------------------------*/
+.highslide-header .highslide-move {display: none;}
+.highslide-header .highslide-close {display: none;}
+.highslide {text-decoration: underline;}
+
+/*  Slideshow */
+.highslide-image {border: 1px solid black; background:none}
+.highslide-controls .highslide-close {display: none;}
+.highslide-caption {padding: .5em 0; font-size:9pt}
+.controls-in-heading .highslide-controls {top: -10px; left:-2px}
+.highslide-container div .highslide-number { font-size:.8em}
+.highslide-html-content {padding: 0 ;}
+.highslide-container div {font-size:9pt}
+.highslide-controls {width: 90px !important;}
+
+
+
