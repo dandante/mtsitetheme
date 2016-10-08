@@ -12,13 +12,35 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/layouts/sidebar-content.css" media="screen" />
+
+	<meta name="google-site-verification" content="PzmCEwv-4sc030hGBAG6NQYrI2W1AqjbXl0PuA5cRLE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Molly Tenenbaum, poet and old-time banjo player in Seattle, is the author of NOW and BY A THREAD. Her CDs are INSTEAD OF A PONY and GOOSE AND GANDER.
+">
+    <meta name="keywords" content="molly tenenbaum, poetry, old-time banjo, frailing, clawhammer, verse, poems, teacher, banjo lessons, music lessons, poetry workshops, recordings, bookings, weddings, gigs, teaching, books, chapbook, old-time music, square dance,  string band, fiddle,"  />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+
 
 <!-- css from old site -->
 <link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/reset.css" media="screen" />
 <link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/base.css" media="screen" />
 <link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/main.css" media="screen" />
 <link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/CSS/highslide.css" />    <!-- For modal windows / galleries  -->
+
+<!-- -->
+
+<?php
+/* The presence/absence of the following line
+ * affects the layout of the site.
+ */  ?>
+<link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/layouts/sidebar-content.css" media="screen" />
+
 
 <!-- scripts from old site -->
 
@@ -38,7 +60,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body id="home" <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mtsitetheme' ); ?></a>
 

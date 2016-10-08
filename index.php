@@ -12,7 +12,17 @@
  * @package mtsitetheme
  */
 
-get_header(); ?>
+/* get_header(); */
+?>
+
+<div id="wrap" class="shadow">
+
+<?php get_header(); ?>
+
+<div class="mainbar">
+
+  <div id="CMScontent">
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -50,6 +60,10 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+</div>
+</div>
+</div>
 
 <?php
 get_sidebar();
