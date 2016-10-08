@@ -15,9 +15,10 @@
 /* get_header(); */
 ?>
 
-<div id="wrap" class="shadow">
 
 <?php get_header(); ?>
+
+<div id="wrap" class="shadow">
 
 <div class="mainbar">
 
@@ -26,6 +27,7 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+
 
 		<?php
 		if ( have_posts() ) :

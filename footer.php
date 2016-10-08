@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mtsitetheme' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'mtsitetheme' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'mtsitetheme' ), 'mtsitetheme', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<a href="http://3crowncreative.com/">design by 3 Crown Creative</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

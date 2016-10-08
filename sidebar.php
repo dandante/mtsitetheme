@@ -14,6 +14,8 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 */
 ?>
 
+<div id="wrap">
+
 <div id="header">
     <h1><a href="/">molly tenenbaum</a></h1>
     <h2>poet, musician, teacher</h2>
