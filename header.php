@@ -65,6 +65,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<?php
+
 
 			$description = get_bloginfo( 'description', 'display' );
 			if ( $description || is_customize_preview() ) : ?>
